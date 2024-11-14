@@ -46,9 +46,3 @@ INSERT INTO lab3.users (id, name, email) VALUES (uuid(), 'John Doe', 'jhondoe@em
 ```sql
 SELECT * FROM lab3.users;
 ```
-
-## Script de creación
-
-```bash
-./load.sh
-```
