@@ -22,7 +22,7 @@ docker run --rm -it --network cassandra nuvo/docker-cqlsh cqlsh cassandra 9042 -
 ## Crear keyspace
 
 ```sql
-CREATE KEYSPACE IF NOT EXISTS lab3 WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 3 };
+CREATE KEYSPACE IF NOT EXISTS lab3 WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 };
 ```
 
 ## Crear tabla
