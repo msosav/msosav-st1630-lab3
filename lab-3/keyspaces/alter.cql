@@ -1,0 +1,1 @@
+Alter Keyspace University with replication={'class':'NetworkTopologyStrategy', 'replication_factor':1};
