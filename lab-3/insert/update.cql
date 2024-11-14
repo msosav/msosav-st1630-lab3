@@ -1,0 +1,1 @@
+Update University.Student Set name="Miguel" Where rollno=1;
