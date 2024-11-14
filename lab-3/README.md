@@ -46,3 +46,10 @@ INSERT INTO lab3.users (id, name, email) VALUES (uuid(), 'John Doe', 'jhondoe@em
 ```sql
 SELECT * FROM lab3.users;
 ```
+
+## Detener Cassandra
+
+```bash
+docker kill cassandra
+docker network rm cassandra
+```
