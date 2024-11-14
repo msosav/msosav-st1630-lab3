@@ -1,0 +1,1 @@
+Alter Table University.Student Add Semester int;

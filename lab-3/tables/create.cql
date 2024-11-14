@@ -1,0 +1,1 @@
+CREATE TABLE University.Student(RollNo int, Name text, dept text, primary key(RollNo));
