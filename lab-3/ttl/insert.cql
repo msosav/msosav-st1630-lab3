@@ -1,0 +1,1 @@
+INSERT INTO University.Student(rollno,name,dept,semester) values(3,'Guru99','CS',7) USING ttl 100;
